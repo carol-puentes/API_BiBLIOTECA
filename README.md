@@ -1,13 +1,4 @@
-<p align="center">
-    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
-</p>
 
-<p align="center">
-<a href="#"><img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build"></a>
-<a href="#"><img src="https://img.shields.io/badge/tests-PHPUnit-blue" alt="Tests"></a>
-<a href="#"><img src="https://img.shields.io/badge/status-completed-success" alt="Status"></a>
-<a href="#"><img src="https://img.shields.io/badge/license-MIT-lightgrey" alt="License"></a>
-</p>
 
 # 📚 API de Gestión de Préstamos — Prueba Técnica
 
@@ -48,3 +39,35 @@ Listar todos los préstamos existentes.
 1. Clonar el repositorio:
 ```bash
 git clone <URL_DEL_REPOSITORIO>
+```
+
+2. Instalar dependencias:
+```bash
+composer install
+```
+3. Crear el archivo de entorno:::
+```bash
+cp .env.example .env
+```
+4.Generar la clave de Laravel:
+```bash
+php artisan key:generate
+```
+5. Ejecutar el servidor: 
+```bash
+php artisan serve
+```
+
+La API estará disponible en:
+```bash
+http://127.0.0.1:8000/
+
+```
+
+## 🧪 Pruebas unitarias
+Para ejecutar las pruebas del proyecto:
+```bash
+php artisan test
+```
+
+
