@@ -38,7 +38,7 @@ Listar todos los préstamos existentes.
 
 1. Clonar el repositorio:
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/carol-puentes/API_BiBLIOTECA.git
 ```
 
 2. Instalar dependencias:
