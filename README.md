@@ -70,4 +70,3 @@ Para ejecutar las pruebas del proyecto:
 php artisan test
 ```
 
-
