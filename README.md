@@ -45,7 +45,7 @@ git clone https://github.com/carol-puentes/API_BiBLIOTECA.git
 ```bash
 composer install
 ```
-3. Crear el archivo de entorno:::
+3. Crear el archivo de entorno:
 ```bash
 cp .env.example .env
 ```
